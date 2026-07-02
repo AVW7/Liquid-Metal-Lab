@@ -1,0 +1,26 @@
+# Handle line endings automatically for files detected as text
+* text=auto
+
+# Specify explicit line endings (LF) for source code files
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+
+# Explicitly mark binary files to prevent corruption during normalization
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
